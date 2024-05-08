@@ -37,7 +37,7 @@ The predicted classification result will be given as `0` (did not survive) or `1
 
 ## Environment Setup - Requirements
 
-To use this dApp, you need to set up your environment for Cartesi Rollups development with Cartesi CLI. Below are the links to guide you through the environment setup:
+To use this dApp, you need to set up your environment for Cartesi Rollups development with Cartesi CLI. Below is a link to guide you through the environment setup:
 
 1. [Installation guide](https://docs.cartesi.io/cartesi-rollups/1.3/development/installation/)
 
@@ -45,7 +45,7 @@ To use this dApp, you need to set up your environment for Cartesi Rollups develo
 
 ## Building and running the application
 
-To build this application, you should have [Cartesi CLI installed](https://docs.cartesi.io/cartesi-rollups/1.3/development/installation/). With that, simply clone this repository and in the root folder open a terminal window and run:
+To build this application, you should have [Cartesi CLI](https://docs.cartesi.io/cartesi-rollups/1.3/development/installation/) installed. With that, simply clone this repository and in the root folder open a terminal window and run:
 
 ```shell
 cartesi build
