@@ -1,6 +1,6 @@
 <div align="center">
     <h1>m2cgen dApp</h1>
-    <i>An Machine Learning example using Sunodo and Cartesi Rollups</i>
+    <i>An Machine Learning example using Cartesi Rollups</i>
 </div>
 <div align="center">
 This example shows a simple way of leveraging some of the most widely used Machine Learning libraries available in Python.
@@ -9,7 +9,7 @@ This example shows a simple way of leveraging some of the most widely used Machi
 <div align="center">
   
   <a href="">[![Static Badge](https://img.shields.io/badge/cartesi--rollups-1.0.0-5bd1d7)](https://docs.cartesi.io/cartesi-rollups/)</a>
-  <a href="">[![Static Badge](https://img.shields.io/badge/sunodo-0.9.5-blue)](https://docs.sunodo.io/guide/introduction/what-is-sunodo)</a>
+  <a href="">[![Static Badge](https://img.shields.io/badge/cartesi-cli-0.9.5-blue)](https://docs.sunodo.io/guide/introduction/what-is-sunodo)</a>
   <a href="">[![Static Badge](https://img.shields.io/badge/python-3.11-yellow)](https://www.python.org/)</a>
 </div>
 
@@ -37,23 +37,23 @@ The predicted classification result will be given as `0` (did not survive) or `1
 
 ## Environment Setup - Requirements
 
-To use this dApp, you need to set up your environment for Cartesi Rollups development with Sunodo. Below are the links to guide you through the environment setup:
+To use this dApp, you need to set up your environment for Cartesi Rollups development with Cartesi CLI. Below is a link to guide you through the environment setup:
 
-1. **DevGuide**: [The Developers' Full Guide](https://github.com/cartesi/DevGuide)
-2. **Sunodo**: [Installing Sunodo](https://docs.sunodo.io/guide/introduction/installing)
+1. [Installation guide](https://docs.cartesi.io/cartesi-rollups/1.3/development/installation/)
 
 
 
 ## Building and running the application
 
-To build this application, you should have [sunodo installed](https://docs.sunodo.io/guide/introduction/installing). With that, simply clone this repository and in the root folder open a terminal window and run:
+To build this application, you should have [Cartesi CLI](https://docs.cartesi.io/cartesi-rollups/1.3/development/installation/) installed. With that, simply clone this repository and in the root folder open a terminal window and run:
+
 ```shell
-sunodo build
+cartesi build
 ```
 Give it some minutes to build the docker containers. After that, run :
 
 ```shell
-sunodo run
+cartesi run
 ```
 
 After running the containers, your terminal window will be similar to the below:
@@ -69,9 +69,9 @@ f10a55b8-prompt-1     | Press Ctrl+C to stop the node
 
 ## Interacting with the application
 
-We can use the [sunodo send generic command](https://docs.sunodo.io/guide/running/sending-inputs#generic-input) application to interact with the DApp.
+We can use the `cartesi send generic` command application to interact with the DApp.
 
-First, go to a separate terminal window and send an input as mentioned in sunodo documentation. Your terminal window will be similar to below:
+First, go to a separate terminal window and send an input. Your terminal window will be similar to below:
 
 ```shell
 ? Chain (Use arrow keys)
